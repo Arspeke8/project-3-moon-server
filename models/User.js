@@ -19,12 +19,6 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  thoughts: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Thought',
-    },
-  ],
   workouts: [
     {
       type: Schema.Types.ObjectId,
