@@ -1,7 +1,7 @@
 const {Schema, model} = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
-const workoutShema = new Schema({
+const workoutSchema = new Schema({
     workoutName: {
     type: String,
     required: 'Name your workout here.',
@@ -19,23 +19,17 @@ const workoutShema = new Schema({
     weightUsed: {
         type: Number,
         required: 'How much weight did you use?',
-        minlength: 1,
-        maxlength: 4,
-        trim: true,
+      
     },
     repsDone: {
         type: Number,
         required: 'How many reps did you do?',
-        minlength: 1,
-        maxlength: 2,
-        trim: true,
+       
     },
     setsDone: {
         type: Number,
         required: 'How many sets did you do?',
-        minlength: 1,
-        maxlength: 2,
-        trim: true,
+         
     },
 });
 

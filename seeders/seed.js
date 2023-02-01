@@ -10,17 +10,17 @@ db.once('open', async () => {
 
     await User.create(userSeeds);
 
-    for (let i = 0; i < workoutSeeds.length; i++) {
-      const { _id, workoutName } = await Workout.create(workoutSeeds[i]);
-      const user = await User.findOneAndUpdate(
-        { username: userName},
-        {
-          $addToSet: {
-            wokrouts: _id,
-          },
-        }
-      );
-    }
+    // for (let i = 0; i < workoutSeeds.length; i++) {
+    //   const { _id, workoutName } = await Workout.create(workoutSeeds[i]);
+    //   const user = await User.findOneAndUpdate(
+    //     { username: userName},
+    //     {
+    //       $addToSet: {
+    //         wokrouts: _id,
+    //       },
+    //     }
+    //   );
+    // }
   } catch (err) {
     console.error(err);
     process.exit(1);
