@@ -1,70 +1,26 @@
-// [
-//   {
-//     "workoutName":"",
-//     "exerciseName":"",
-//     "weightUsed": "",
-//     "repsDone": "",
-//     "setsDone": "",
-//     "userName": ""
-//   },
-//   {
-//     "workoutName":"",
-//     "exerciseName":"",
-//     "weightUsed": "",
-//     "repsDone": "",
-//     "setsDone": "",
-//     "userName": ""
-//   },
-//   {
-//     "workoutName":"",
-//     "exerciseName":"",
-//     "weightUsed": "",
-//     "repsDone": "",
-//     "setsDone": "",
-//     "userName": ""
-//   }
-// ]
-
 [
-  { "userName:": "Frankthetank",
-    "workoutName": "arms",
-    "date": "01-30-2023",
-    "exercises": [
-      {
-        "weight": 20,
-        "set": 4,
-        "reps": 3,
-        "exerciseName": "bicep curls",
-        "date": "01-30-2023"
-      },
-      {
-        "weight": 20,
-        "set": 4,
-        "reps": 3,
-        "exercise": "hammer curls",
-        "date": "01-30-2023"
-      }
-    ]
+  {
+    "workoutName":"chest",
+    "exerciseName":"benchpress",
+    "weightUsed": "90",
+    "repsDone": "10",
+    "setsDone": "3",
+    "userName": "steve0"
   },
   {
-    "name": "chest",
-    "date": "01-30-2023",
-    "exercises": [
-      {
-        "weight": 20,
-        "set": 4,
-        "reps": 3,
-        "exercise": "chest press",
-        "date": "01-30-2023"
-      },
-      {
-        "weight": 20,
-        "set": 4,
-        "reps": 3,
-        "exercise": "bench press",
-        "date": "01-30-2023"
-      },
-      { "weight": 20, "set": 4, "reps": 3, "exercise": "push up", "date": "01-30-2023" }
-    ]
+    "workoutName":"legs",
+    "exerciseName":"squats",
+    "weightUsed": "10",
+    "repsDone": "3",
+    "setsDone": "3",
+    "userName": "alicefromwonderland"
+  },
+  {
+    "workoutName":"arms",
+    "exerciseName":"bicurls",
+    "weightUsed": "20",
+    "repsDone": "3",
+    "setsDone": "4",
+    "userName": "Frankthetank"
   }
 ]
